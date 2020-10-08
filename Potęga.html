@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    podstawa potęgi: <imput type="number" id="podstawa"></br>
+    Podstawa potęgi: <imput type="number" id="podstawa"></br>
     Wykładnik potęgi: <imput type="number" id="wykladnik"></br>
     <button onclick="policzPotęge()">Policz</button><br>
     <p id="wynik"></p>
@@ -16,7 +16,7 @@
             var podstawa = document.getElementById('podstawa').value;
             podstawa = parseInt(podstawa);
             //console.log( typeof(podstawa) );
-            var wykladnik = dpcument.getElementById('wykladnik').value;
+            var wykladnik = document.getElementById('wykladnik').value;
             wykladnik = parseInt(wykladnik);
 
             var wynik = Math.pow(podstawa, wykladnik);
